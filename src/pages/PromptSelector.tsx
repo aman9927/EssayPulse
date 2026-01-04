@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { CategorySection } from "../components/CategorySection";
 import { categories } from "../lib/prompts";
 
@@ -39,12 +38,6 @@ export function PromptSelector() {
               Write at least 150 words to receive AI feedback on your narrative.
             </p>
           </div>
-          <Link 
-            to="/style-guide" 
-            className="tw-back-link mt-8 justify-center"
-          >
-            View Style Guide →
-          </Link>
         </footer>
       </div>
     </div>
